@@ -148,6 +148,6 @@ pycrypto==2.6.1
 ffmpeg==1.4
 SoundFile==0.10.3.post1
 cffi 1.14.5
-libsndfile1==1.0.28-4
+sndfile 0.2.0
 
 
