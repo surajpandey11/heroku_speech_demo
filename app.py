@@ -7,7 +7,7 @@ import pandas as pd
 import os # interface with underlying OS that python is running on
 import sys
 import warnings
-ignore warnings 
+# ignore warnings 
 if not sys.warnoptions:
     warnings.simplefilter("ignore")
 warnings.filterwarnings("ignore", category=DeprecationWarning)
