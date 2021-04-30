@@ -77,7 +77,7 @@ model = load_model(MODEL_1_PATH)
 
 #     mean = np.mean(X)
 #     std = np.std(X)
-#     X = (X - mean)/std
+#     X = (X - mean)/std 
 
 #     prediction_model_2 = model2.predict(X)
 
