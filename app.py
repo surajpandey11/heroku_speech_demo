@@ -4,9 +4,9 @@ import librosa
 import numpy as np
 # import tensorflow as tf
 import pandas as pd
-import os # interface with underlying OS that python is running on
-import sys
-import warnings
+# import os # interface with underlying OS that python is running on
+# import sys
+# import warnings
 # ignore warnings 
 # if not sys.warnoptions:
 #     warnings.simplefilter("ignore")
@@ -38,7 +38,7 @@ model = load_model(MODEL_1_PATH)
 # model2=tf.keras.models.load_model(MODEL_2_PATH)
           
 
-print('Model loaded. Check http://127.0.0.1:5000/')
+# print('Model loaded. Check http://127.0.0.1:5000/')
 
 # # function for model_2 predictions
 # def model_2_prediction(file_path,model2):
